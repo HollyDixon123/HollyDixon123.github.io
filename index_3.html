@@ -29,18 +29,16 @@
         }
        
         h3{
-            font-size: 2em;
-            font-weight: 300;
-            text-align: center;
-            font-size: 
+            font-size: 1.1em;
+            font-weight: 200;
         }
         
         p{
             font-weight: 200;
         }
         
-         /* --  layout styles--- */
-        /* --  Main box styles--- */
+         /* --  layout  styles--- */
+        
         .wrapper{
             max-width: 900px;
             margin: auto;
@@ -48,7 +46,6 @@
             border: 2px rgb(255,255,255);
         }
         
-        /* --  Hero image styles--- */
         .herowrapper{ 
             max-width: 1500px;
             margin: auto;
@@ -56,21 +53,12 @@
             border: 2px rgb(255,255,255);
         }
         
-        /* --  Hero image styles--- */
-        .hero{
-            max-width: 100%;
-            display: block;
-            margin: auto;
-        }
-        
-        /* --  Column styles--- */
         .col-container{
             border: 1px solid white;
             overflow: hidden;
             max-width: 100%;
             
         }
-        
         
         .col1{
             box-sizing: border-box;
@@ -85,21 +73,19 @@
             float: left;
             width: 50%;
         }
-        /* --  Column image box styles--- */
+        
         .img-col{
             max-width: 100%;
             display: block;
             margin: auto;
         }
         
-        /* --  Column image box styles--- */
         .hero{
             max-width: 100%;
             display: block;
             margin: auto;
         }
         
-        /* --  Footer styles--- */
         .footer{
             color: rgb(0,0,0);
         }
@@ -115,7 +101,7 @@
             margin: 0;
             padding:0;
             overflow: hidden;
-            background-color: rgb(255,255,255);
+            background-color: rgb(0,255,255);
             font-weight: 200;
             text-align: center;  
         }
@@ -129,128 +115,28 @@
             text-decoration: none;
             font-size: 1.3em;
             color: rgb(0,0,0);
-            border-right: 1px dotted rgb(255,255,255);
-             background-color: rgb(255,255,255);
+            border-right: 1px dotted rgb(255,0,255);
+             background-color: rgb(0,0,255);
             padding: 25px;
         }
         
-       /* --  navigation hover styles--- */
         .navbar li a:hover{
             background-color: rgb(196,196,196);
             color: rgb(0,0,0);
         }
     
-        /* --  navigation stick styles--- */
+        
         .stick-nav{
             position: fixed;
             top:0;
             left:0;
-            background-color:(255,255,255);
+            background-color: blueviolet;
             width:100%;
-            z-index: 1;
 
         }
         
-        /* --  navigation stick styles--- */
-        .map{
-            text-align: center;
-            width: 100%;
-        }
         
-        * {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 800px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+        
         
     </style>
     <body>
@@ -264,7 +150,7 @@
     <div class="wrapper">
     
     <div  id="sticky">
-<!-- navigation -->    
+    
      <div class="nav-container"> 
     <ul class="navbar"> 
         <li><a href="#magic"> Magic Kingdom</a> </li>
@@ -276,20 +162,13 @@
          </div>  
         
         </div>
- <!-- Title text -->         
-        <p> The Walt Disney World Resort, also called Walt Disney World and Disney World, is an entertainment complex in Bay Lake and Lake Buena Vista, Florida, in the United States, near the city of Orlando. Opened on October 1, 1971, the resort is owned and operated by Disney Parks, Experiences and Products, a division of The Walt Disney Company. It was first operated by Walt Disney World Company. The property covers nearly 25,000 acres, of which only half has been used. The resort comprises four theme parks (consisting of Magic Kingdom, Epcot, Disney's Hollywood Studios, and Disney's Animal Kingdom), two water parks, 27 themed resort hotels, nine non-Disney hotels, several golf courses, a camping resort, and other entertainment venues, including the outdoor shopping center Disney Springs. All theme parks at the Walt Disney World Resort are owned and operated by The Walt Disney Company through its Parks, Experiences and Products division. 
-        </p>
         
-        <h2> Map </h2>
-        <div class="map">
-        <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1r3JvAwfaSi0R5pvJ8HHhuhQGEc3vicUS" width="640" height="480"></iframe>
-        </div>
+        <h3> The Walt Disney World Resort, also called Walt Disney World and Disney World, is an entertainment complex in Bay Lake and Lake Buena Vista, Florida, in the United States, near the city of Orlando. Opened on October 1, 1971, the resort is owned and operated by Disney Parks, Experiences and Products, a division of The Walt Disney Company. It was first operated by Walt Disney World Company. The property covers nearly 25,000 acres, of which only half has been used. The resort comprises four theme parks (consisting of Magic Kingdom, Epcot, Disney's Hollywood Studios, and Disney's Animal Kingdom), two water parks, 27 themed resort hotels, nine non-Disney hotels, several golf courses, a camping resort, and other entertainment venues, including the outdoor shopping center Disney Springs. All theme parks at the Walt Disney World Resort are owned and operated by The Walt Disney Company through its Parks, Experiences and Products division. 
+        </h3>
         
-        <span id="magic"> &nbsp;</span>
-        <h2> Magic Kingdom</h2>
+        <h2 id="magic"> Magic Kingdom</h2>
         <div class="col-container">
         
-<!-- Images in column boxes -->    
         <div class="col1">  
         <img class="img-col" src="Images_Small/castle_opt_2_small.jpg" alt="This is a photo of the castle with people">
         </div>
@@ -298,54 +177,46 @@
         </div>
              
         </div>
-<!-- Magic Kindom text -->   
         <p></p>
-        <h3>"Explore Lands of Endless Enchantment, Where Your Fantasy Becomes a Reality"</h3>
         <p> Magic Kingdom Park opened on October 1, 1971, as the first of four theme parks at the resort. The park was initialized by Walt Disney and designed by WED Enterprises. Its layout and attractions are based on Disneyland Park in Anaheim, California, and are dedicated to fairy tales and Disney characters.</p>
         <p> The park is represented by Cinderella Castle, inspired by the fairy tale castle seen in the 1950 film. In 2019, the park hosted 20.9 million visitors, making it the most visited theme park in the world for the thirteenth consecutive year and the most visited theme park in North America for at least the past nineteen years.</p>
         <p> Magic Kingdom is divided into six themed "lands." It is designed like a wheel, with the hub in front of Cinderella Castle. Pathways spoke out from the hub across the 107 acres of the park and lead to these six lands. The Walt Disney World Railroad circles around the entire 2.4 km perimeter of the park and makes stops at Main Street, U.S.A., Frontierland, and Fantasyland.</p>
-        <span id="epcot"> &nbsp;</span>
-        <h2 > Epcot </h2>
-        <div class="col-container">
         
-<!-- Images in column boxes -->    
+        <h2 id="epcot"> Epcot </h2>
+        <div class="col-container">
+            
         <div class="col1">  
         <img class="img-col" src="Images_Small/spaceship_earth_good_small.jpg" alt="This is a photo of the round ball that is the center of epcot">
-        </div>   
+        </div>
+            
         <div class="col2">  
         <img class="img-col" src="Images_Small/China_small.jpg" alt="This is a photo of the China pavilion in the world showcase">
         </div>
             
         </div>
-<!-- Epcot text -->
         <p></p>
-        <h3>"Travel Around the Globe, Under the Sea, into Outer Space… and Beyond!"</h3>
-        <p> EPCOT is inspired by an unrealized concept developed by Walt Disney, the park opened on October 1, 1982 as EPCOT Center, and was the second of four theme parks built at Walt Disney World. Spanning 1.23 km2, more than twice the size of the Magic Kingdom park, Epcot is dedicated to the celebration of human achievement, namely technological innovation and international culture, and is often referred to as a "permanent world's fair".</p>
-        <p> Epcot was originally conceived by Walt Disney during the early development of Walt Disney World, as an experimental planned community that would serve as a center for American innovation and urban living. Known as "EPCOT". After Disney's death in 1966, the "EPCOT" concept was abandoned as the company had uncertainty about maintaining an operating city. In the 1970s, WED Enterprises began developing a second theme park for the resort to supplement Magic Kingdom, as that park's popularity grew. The new park maintained the idea of showcasing modern innovation and enterprise through avant-garde edutainment attractions, as well as the addition of a world nations exposition. The newly-designed park, featuring two sections—Future World and World Showcase—opened as EPCOT Center in 1982. In 1994, the park was renamed to "Epcot", dropping the acronym and "Center" from the name.</p>
-        <p> The park is represented by Spaceship Earth, a geodesic sphere.</p>
-        <span id="hollywood"> &nbsp;</span>
-        <h2> Hollywood Studios </h2>
+        <p> EPCOT is inspired by an unrealized concept developed by Walt Disney, the park opened on October 1, 1982 as EPCOT Center, and was the second of four theme parks built at Walt Disney World, after the Magic Kingdom. Spanning 1.23 km2, more than twice the size of the Magic Kingdom park, Epcot is dedicated to the celebration of human achievement, namely technological innovation and international culture, and is often referred to as a "permanent world's fair".</p>
+        <p> Epcot was originally conceived by Walt Disney during the early development of Walt Disney World, as an experimental planned community that would serve as a center for American innovation and urban living. Known as "EPCOT", the idea included an urban city center, residential areas, churches, schools, and a series of mass transportation systems that would connect the community. After Disney's death in 1966, the "EPCOT" concept was abandoned as the company had uncertainty about maintaining an operating city. In the 1970s, WED Enterprises began developing a second theme park for the resort to supplement Magic Kingdom, as that park's popularity grew. The new park maintained the idea of showcasing modern innovation and enterprise through avant-garde edutainment attractions, as well as the addition of a world nations exposition. The newly-designed park, featuring two sections—Future World and World Showcase—opened as EPCOT Center in 1982. In 1994, the park was renamed to "Epcot", dropping the acronym and "Center" from the name.</p>
+        <p> In 2019, Epcot hosted 12.444 million guests, ranking it as the fourth-most-visited theme park in North America and the seventh-most-visited theme park in the world. The park is represented by Spaceship Earth, a geodesic sphere.</p>
+        
+        <h2 id="hollywood"> Hollywood Studios </h2>
         <div class="col-container">
         
-<!-- Images in column boxes -->    
         <div class="col1">  
         <img class="img-col" src="Images_Small/hollywood_entrance_small.jpg" alt="This is a photo of the enterance to Hollywood Studios">
         </div>
         <div class="col2">  
         <img class="img-col" src="Images_Small/Tower_of_terror_hollywood_small.jpg" alt="This is a photo of the tower of terror which is a ride inside hollywood studios">
         </div>    
-        
+            
         </div>
-<!-- Hollywood studios text -->
-        <h3>"Let Your Adventure Begin Epic Excitement Awaits at Every Turn"</h3>
         <p> Hollywood Studios is based on a concept by Marty Sklar, Randy Bright, and Michael Eisner, the park opened on May 1, 1989, as the Disney-MGM Studios Park, and was the third of four theme parks built at Walt Disney World. Spanning 135 acres (55 ha), the park is dedicated to the imagined worlds from film, television, music, and theatre, drawing inspiration from the Golden Age of Hollywood.</p>
         <p> Disney's Hollywood Studios was initially developed as both a theme park inspired by show business and an operating production studio, with active film and television production services, an animation facility branch, and a functioning backlot. Construction on the combined park and studio began in 1987, but was accelerated when the construction of the similarly-themed Universal Studios Florida began a few miles away. To increase public interest and the variety of film representation within the park, Disney entered into a licensing agreement with Metro-Goldwyn-Mayer, from which the park's original name was derived. The park's production facilities were removed throughout the 2000s, and many of the park's soundstages were retrofitted for newer attractions and guest use. The park's current name took effect in 2008, with the removal of the MGM-branding throughout the park. In the 2010s, the park began to distance itself from the original studio backlot intention and entered a new direction of immersive theming and attraction development inspired by Hollywood stories.</p>
         <p>The park's icon was originally the Earffel Tower from the park's opening until 2001 when the Sorcerer's Hat—a stylized version of the magical hat from Fantasia—was erected in the park's central hub. It then served as the park's icon until its removal in January 2015. In 2018, the park hosted 11.258 million guests, ranking it the fifth most-visited theme park in North America and the ninth most-visited theme park in the world.</p>
-        <span id="animal"> &nbsp;</span>
-        <h2> Animal Kingdom </h2>
+        
+        <h2 id="animal"> Animal Kingdom </h2>
         <div class="col-container">
-         
-    <!-- Images in column boxes -->    
+        
         <div class="col1">  
         <img class="img-col"  src="Images_Small/animal_kingom_sign_small.jpg" alt="This is a photo of the sign out the front of Animal Kingdom">
         </div>
@@ -354,122 +225,34 @@
         </div>
         
         </div>
-<!-- Animal Kindom text -->
-        <h3>"Behold the Magic of Nature with Rare Animals and Wild Entertainment"</h3>
         <p> Disney's Animal Kingdom is the largest theme park in the world, covering 580 acres .The park opened on Earth Day, April 22, 1998, and was the fourth theme park built at the resort. The park is dedicated and themed entirely around the natural environment and animal conservation, a philosophy once pioneered by Walt Disney himself.</p>
         <p>Disney's Animal Kingdom is distinguished from the rest of Walt Disney World's theme parks in that it features traditional attractions while also exhibiting hundreds of species of live animals. Due to these sensitive conditions, special designs and provisions were incorporated throughout the park to protect the animals' welfare. The park is located on the western edge of the resort, and is isolated from the resort's other theme parks and properties to minimize external disruptions to the animals; as a result, the park's nighttime show also features no fireworks that would otherwise disturb the animals. The park also uses biodegradable paper straws and prohibits plastic straws, lids, and balloons. Disney's Animal Kingdom is accredited by the Association of Zoos and Aquariums and the World Association of Zoos and Aquariums, which indicates they have met or exceeded the standards in education, conservation, and research.</p>
         <p>In 2019, Disney's Animal Kingdom hosted 13.888 million guests, ranking it as the third-most-visited theme park in North America and the sixth-most-visited theme park in the world. The park's icon is the Tree of Life, a 44m tall, 15m wide artificial baobab tree. The park is the second-most-visited at Walt Disney World Resort, behind the Magic Kingdom.</p>
         </div>
+        <h2 id="gallery">Gallery</h2>
         
         
-        
-        
-        
-        <span id="gallery"> &nbsp;</span>
-        <h2>Gallery</h2>
-        
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="Images_Small/gallery_1.jpg" style="width:100%">
-    <div class="text">Cinderella's castle castle</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="Images_Small/gallery_2.jpg" style="width:100%">
-    <div class="text">Hangout with the characters</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 5</div>
-    <img src="Images_Small/gallery3.jpg" style="width:100%">
-    <div class="text">See the parades</div>
-  </div>
-    
-    <div class="mySlides fade">
-    <div class="numbertext">4 / 5</div>
-    <img src="Images_Small/gallery4.jpg" alt=""style="width:100%">
-    <div class="text"> Meet all the characters.</div>
-  </div>
-
-    <div class="mySlides fade">
-    <div class="numbertext">5 / 5</div>
-    <img src="Images_Small/gallery5.JPG" style="width:100%">
-    <div class="text">Travel to paris to see Sleeping Beauty's castle</div>
-  </div>
-    
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-<span class="dot" onclick="currentSlide(1)"></span>
-<span class="dot" onclick="currentSlide(2)"></span>
-<span class="dot" onclick="currentSlide(3)"></span>
-<span class="dot" onclick="currentSlide(4)"></span>
-<span class="dot" onclick="currentSlide(5)"></span>
-</div>
-    
-
-
         <div class="footer"> Holly's Footer</div>
         
-<!-- Navbar Java -->     
-<script>
-var stick = document.getElementById("sticky");
-    console.log(stick);
-    window.addEventListener('scroll',scrollTracker);
-
-    function scrollTracker(e){
-        console.log(window.scrollY);
-        if(window.scrollY > 487){
-             stick.classList.add("stick-nav");
-        }
-        else{
-            stick.classList.remove("stick-nav");
-        }
-
-    }
-
-
-</script>
-    
-<!-- Slideshow Java -->        
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
+        
+        <script>
+        var stick = document.getElementById("sticky");
+            console.log(stick);
+            window.addEventListener('scroll',scrollTracker);
+            
+            function scrollTracker(e){
+                console.log(window.scrollY);
+                if(window.scrollY > 590){
+                     stick.classList.add("stick-nav");
+                }
+                else{
+                    stick.classList.remove("stick-nav");
+                }
+                
+            }
+            
+            
+        </script>
     </body>
 </html>
 
